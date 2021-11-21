@@ -1,0 +1,37 @@
+<%- include('head') %>
+  <%- include('header') %>
+<body>
+    <main>
+        <div class="container" >
+            <a class="links" id="paracadastro"></a>
+            <a class="links" id="paralogin"></a>
+            <div class="content">      
+                <div id="login">
+                    <form method="post" action="/entrar">
+                        <h1>Login</h1>
+                        <p>
+                            <label for="e_mail">Nome de Usuário</label> 
+                            <input type="text" placeholder="Digite seu nome de usuário" required="required">
+                        </p>             
+                        <p>
+                            <label for="senha">Senha:</label>  
+                            <input type="password" placeholder="Digite sua senha" required="required"> 
+                        </p>
+                        <input type="submit" value="Entrar"> 
+                   
+                    </form>
+                    <form action="/dadoscliente" method="GET">
+                        <input type="submit" value="Esqueci a senha"> 
+                       
+                        <p> Ainda não tem conta?</p> <input type="submit" value="Cadastre-se"> 
+                        
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include('footer') %>
+</body>
+
+</html>

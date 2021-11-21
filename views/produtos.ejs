@@ -1,0 +1,10 @@
+<%- include('head') %>
+  <%- include('header') %>
+<% for(let produto of produtos) {%>
+    <article>
+        <h1><%=produto.nome%></h1>
+        <img id="img-produto" src="<%=produto.imgURL %>" alt="<%=produto.nome %>">
+        <p><a class="btn btn-secondary" href="/carrinho/<%=produto.id%>">Comprar</a></p>
+    </article>
+<%} %>
+  <%- include('footer') %>

@@ -1,0 +1,122 @@
+body {
+  padding: 0px;
+  font: 10px Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+main {
+  position: absolute;
+  display: flex;
+}
+header {
+    background-color:#007EA7;
+    width:100%;
+    height: 37px;
+    position:absolute;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+  
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+  
+}
+
+.caixa1 {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+  padding-top: 10%;
+  
+}
+
+.logo {
+  width:540px;
+	height:207px;
+  position: relative;
+  text-align: center;
+  padding: 540 0 0 0;
+  display: inline;
+  justify-content: center;
+  margin-left: 400px;
+} 
+
+/* .logo {
+  text-align: center;
+  background: url("../images/logoSF1.png");
+  padding: 40px 0;
+} */
+
+/* .elemento{
+  overflow:hidden;
+} */
+/* .cab-geral {
+  display: inline;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 0 15px 15px;
+}
+.cab-buscar { 
+	color:rgba(255, 255, 255, 1);
+  width:192px;
+	height:77px;
+	position:absolute;
+	left:640px;
+	top:10px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.cab-cadastre-se { 
+	color:rgba(255, 255, 255, 1);
+	width:192px;
+	height:77px;
+	position:absolute;
+	left:820px;
+	top:10px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0; */ 
+  
+/* }
+.cab-entre { 
+	color:rgba(255, 255, 255, 1);
+	width:192px;
+	height:77px;
+	position:absolute;
+	left:1024px;
+	top:10px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}  */
+
+article > img {
+	text-align: center;
+}

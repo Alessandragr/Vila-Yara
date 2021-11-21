@@ -1,0 +1,56 @@
+<%- include('./head') %>
+<%- include('./header') %>
+<body>
+    <main>
+        <div class="container" >
+            <a class="links" id="paracadastro"></a>
+            <a class="links" id="paralogin"></a>
+            <div class="content">      
+                <div id="login">
+                    <form method="post" action="/cadastroUsuario">
+                        <h1>Dados do Usuário</h1>
+                        <p>
+                            <label for="NomeUsuario">Nome de Usuário:</label> 
+                            <input name="nome-usuario" type="text" placeholder="Digite seu nome de usuário" required="required">
+                        </p>   
+                        <p>
+                            <label for="Senha">Senha:</label> 
+                            <input name="senha" type="number" placeholder="Digite sua senha" required="required">
+                        </p>
+                        <p>
+                            <label for="E-mail">E-mail:</label> 
+                            <input name="email" type="text" placeholder="Digite seu E-mail" required="required">
+                        </p>
+                        <p>
+                            <label for="Nome">Nome:</label> 
+                            <input name="nome" type="text" placeholder="Digite seu nome" required="required">
+                        </p>   
+
+                        <p>
+                            <label for="Sobrenome">Sobrenome:</label> 
+                            <input name="sobrenome" type="text" placeholder="Digite seu sobrenome" required="required">
+                        </p>   
+                        
+                        <p>
+                            Escolhar a sua função 
+                        </p>
+
+                        <p>Função:</p>
+                          <input type="radio" id="administrador" name="funcao" value="administrador">
+                          <label for="administrador">Administrador</label><br>
+                          <input type="radio" id="espectador" name="funcao" value="espectador">
+                          <label for="espectador">Espectador</label><br>
+
+                        <input type="submit" value="Entrar"> 
+                                           
+                    </form>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include('./footer') %>
+</body>
+
+</html>
